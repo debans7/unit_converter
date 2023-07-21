@@ -69,7 +69,7 @@
         android:layout_weight="1"
         android:ems="10"
         android:fontFamily="@font/antic_slab"
-        android:inputType="numberDecimal" />
+        android:inputType="number|numberDecimal|numberSigned" />
 
     <EditText
         android:id="@+id/second"
@@ -81,7 +81,7 @@
         android:layout_weight="1"
         android:ems="10"
         android:fontFamily="@font/antic_slab"
-        android:inputType="numberDecimal" />
+        android:inputType="number|numberDecimal|numberSigned" />
 
 </LinearLayout>
 

@@ -3,6 +3,7 @@ package com.example.unitconverter
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.InputType
 import android.view.View
 import android.widget.AdapterView
 import android.widget.Button
