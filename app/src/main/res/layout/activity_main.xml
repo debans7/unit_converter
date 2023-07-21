@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#2C81C8"
+        android:background="#7986CB"
+        android:fontFamily="@font/purple_purse"
         android:paddingTop="8dp"
         android:paddingBottom="15dp"
         android:text="Unit Converter"

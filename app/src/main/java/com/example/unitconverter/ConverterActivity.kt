@@ -99,12 +99,12 @@ class ConverterActivity : AppCompatActivity() {
         unit2.setOnFocusChangeListener { _,hasFocus ->
             if(hasFocus){
                 convert.setOnClickListener{
-                if(temp){
+            if(temp){
                         convTemp(exp2,exp1,unit2,unit1)
 
                     }
                     else
-                convert(rel2,rel1,unit1,unit2)
+                    convert(rel2,rel1,unit1,unit2)
                 }
 
             }
